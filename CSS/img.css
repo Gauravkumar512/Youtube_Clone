@@ -93,31 +93,34 @@
         font-size: 16px;
     }
 
-@media (max-width: 768px) {
+ @media (max-width: 768px) {
     .header {
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
-        gap: 8px;
-        padding: 10px 12px;
+        padding: 8px 12px;
     }
 
-    .left-section,
-    .right-section {
-        display: none;
+    .left-section {
+        display: block;
+    }
+
+    .left-section img.youtube-logo {
+        height: 30px;
     }
 
     .middle-section {
         flex: 1;
         display: flex;
-        justify-content: center;
+        justify-content: flex-end;
         align-items: center;
         gap: 8px;
+        margin-left: 12px;
     }
 
     .search-bar {
-        width: 100%;
-        max-width: 400px;
+        flex: 1;
+        max-width: none;
         padding: 8px 12px;
         font-size: 16px;
         border-radius: 20px;
@@ -129,9 +132,8 @@
         cursor: pointer;
     }
 
-    body {
-        padding-left: 0;
-        padding-right: 0;
+    .right-section {
+        display: none;
     }
 
     .sidebar {
@@ -145,5 +147,6 @@
         padding: 10px;
     }
 }
+
 
 
