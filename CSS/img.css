@@ -106,7 +106,7 @@
         margin: 8px 0;
     }
 
-    .sidebar {
+    .sidebar,.left-section,.right-section {
         display: none;
     }
 
