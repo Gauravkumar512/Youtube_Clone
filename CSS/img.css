@@ -93,47 +93,45 @@
         font-size: 16px;
     }
 
-@media (max-width: 768px) {
+ @media (max-width: 768px) {
     .header {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
-        padding: 8px 12px;
+        gap: 8px;
+        padding: 10px 12px;
     }
 
-    .left-section {
-        display: block;
-    }
-
-    .left-section img.yt-logo {
-        height: 30px;
+    .left-section,
+    .right-section {
+        display: none;
     }
 
     .middle-section {
         flex: 1;
         display: flex;
-        justify-content: flex-end;
+        justify-content: center;
         align-items: center;
         gap: 8px;
-        margin-left: 12px;
     }
 
-    .srch {
-        flex: 1;
-        max-width: none;
+    .search-bar {
+        width: 100%;
+        max-width: 400px;
         padding: 8px 12px;
         font-size: 16px;
         border-radius: 20px;
         border: 1px solid #ccc;
     }
 
-    .voice {
+    .mic-icon {
         font-size: 22px;
         cursor: pointer;
     }
 
-    .right-section {
-        display: none;
+    body {
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .sidebar {
@@ -147,6 +145,7 @@
         padding: 10px;
     }
 }
+
 
 
 
