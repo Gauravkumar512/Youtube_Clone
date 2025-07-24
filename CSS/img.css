@@ -93,7 +93,7 @@
         font-size: 16px;
     }
 
- @media (max-width: 768px) {
+@media (max-width: 768px) {
     .header {
         display: flex;
         justify-content: space-between;
@@ -105,7 +105,7 @@
         display: block;
     }
 
-    .left-section img.youtube-logo {
+    .left-section img.yt-logo {
         height: 30px;
     }
 
@@ -118,7 +118,7 @@
         margin-left: 12px;
     }
 
-    .search-bar {
+    .srch {
         flex: 1;
         max-width: none;
         padding: 8px 12px;
@@ -127,7 +127,7 @@
         border: 1px solid #ccc;
     }
 
-    .mic-icon {
+    .voice {
         font-size: 22px;
         cursor: pointer;
     }
