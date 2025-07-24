@@ -1,0 +1,101 @@
+        .img{
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        
+        .preview{
+            margin-bottom: 20px;
+        }
+        .title{
+            margin-top: 0px;
+            margin-bottom: 8px;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 19px;
+            color: rgb(0, 0, 0);
+            cursor: pointer;
+            
+        }
+        .thumbnail{
+            margin-bottom: 8px;
+            border-radius: 10px;
+            display: block;
+            width: 100%;
+            cursor: pointer;
+            position: relative;
+        }
+        .profile{
+            width: 40px;
+            border-radius: 30px;
+            cursor: pointer;
+        }
+        .display{
+            display: grid;
+            grid-template-columns: 50px 1fr;
+        }
+        .author{
+            font-size: 12px;
+            color: rgb(69, 69, 69);
+            cursor: pointer;
+        }
+        .views{
+            color: rgb(69, 69, 69);
+            font-size: 12px;
+            margin-top: 3px;
+            margin-bottom: 5px;
+            cursor: pointer;
+        }
+        .video-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 11px;
+        padding: 6px 8px;
+        max-width: 1500px;
+        margin: 0 auto;
+        
+        }
+        .video-time{
+            font-family: Roboto, Arial;
+            position: absolute;
+            background-color: black;
+            color: white;
+            bottom: 10px;
+            right: 8px;
+            border-radius: 5px;
+            font-size: 12px;
+            font-weight: 500;
+            padding-left: 4px;
+            padding-right: 4px;
+            padding-top: 4px;
+            padding-bottom: 4px;
+            z-index: 1;
+           }
+
+        body.dark-mode .search-button {
+            background-color: #303030;
+            border-color: #555;
+        }
+
+        body.dark-mode .voice-button {
+            background-color: #303030;
+        }
+
+        body.dark-mode .srch {
+            background-color: #181818;
+            color: white;
+            border: 1px solid #444;
+        }
+
+        body.dark-mode .srch::placeholder {
+            color: #bbb;
+        }
+
+        body.dark-mode .tooltip {
+            background-color: #555;
+            color: white;
+        }
+
+
+
+

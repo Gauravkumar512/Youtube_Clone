@@ -1,0 +1,94 @@
+    .menu-img{
+        height: 24px;
+        width: 24px;
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+    .yt-logo{
+        height: 20px;
+        width: 90px;
+    }
+    .up-logo,.dark-logo{
+    height: 24px;
+    }
+    .pr-logo{
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        object-fit: cover;
+        cursor: pointer;
+    }
+    .search-button , .voice-button , .icons-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    .search-button{
+        height: 38px;
+        width: 60px;
+        background-color: rgb(241, 241, 241);
+        border: 1px solid rgb(192, 192, 192);
+        margin-left: -1px;
+        margin-right: 10px;
+        cursor: pointer;
+        border-left: none;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    .search-button .tooltip, 
+    .voice-button .tooltip ,
+    .icons-container .tooltip
+    {
+        font-family: Roboto,Arial;
+        position: absolute;
+        background-color: rgb(105, 104, 104);
+        color: white;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        padding-left: 8px;
+        padding-right: 8px;
+        font-size: 12px;
+        bottom: -40px;
+        right: 2px;
+        opacity: 0;
+        transition: opacity 0.15s;
+        pointer-events: none;
+        white-space: nowrap;
+    }
+    .search-button:hover .tooltip , 
+    .voice-button:hover .tooltip , 
+    .icons-container:hover .tooltip{
+        opacity: 1;
+    }
+    .search-icon{
+        height: 25px;
+    }
+    .voice-button{
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: rgb(245, 244, 244);
+        border: none;
+        cursor: pointer;
+    }
+    .voice{
+        height: 24px;
+    }
+    .srch{
+        flex: 1;
+        height: 34px;
+        padding-left: 15px;
+        font-size: 16px;
+        border: 1px solid rgb(192, 192, 192);
+        border-right: none;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        outline: none;
+        box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+        width: 0;
+    }
+    .srch::placeholder{
+        font-family: Roboto, Arial;
+        font-size: 16px;
+    }

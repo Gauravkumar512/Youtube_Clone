@@ -1,0 +1,132 @@
+    .header {
+        height: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: white;
+        z-index: 10;
+        border-bottom: 1px solid #414141;
+        
+    }
+
+    .left-section{
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        
+    }
+
+    .middle-section{
+        display: flex;
+        align-items: center;
+        max-width: 500px;
+        flex: 1;
+        margin-right: 30px;
+        margin-left: 70px;
+        
+    }
+
+    .right-section{
+        width: 200px;
+        display: flex;
+        align-items: center; 
+        justify-content: space-between;
+        margin-right: 20px;
+        flex-shrink: 0;
+        cursor: pointer;
+    }
+    .sidebar{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        top: 50px;
+        background-color: white;
+        width: 70px;
+        z-index: 1;
+    }
+    .sidebar-link{
+        height: 75px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        cursor: pointer;
+    }
+    .sidebar-link:hover{
+        background-color: rgb(214, 214, 214);
+    }
+    .sidebar-link img{
+       height: 24px;
+       margin-bottom: 4px;
+    }
+    .sidebar-content{
+        font-size: 10px;
+        font-family: Roboto,Arial;
+    }
+    .noti{
+        position: absolute;
+        background-color: rgb(187, 8, 8);
+        color: white;
+        border-radius: 50px;
+        top: 9px;
+        right: 72px;
+        font-family: Roboto,Arial;
+        font-size: 10px;
+        padding-left: 6px;
+        padding-right: 6px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+
+    body.dark-mode {
+        background-color: #000000;
+     }
+
+    .dark-text {
+        color: white;
+    }
+
+
+    body.dark-mode .author,
+    body.dark-mode .views {
+        color: #aaa;
+    }
+    body.dark-mode .video-card {
+        background-color: #000000;
+    }
+
+    body.dark-mode .title {
+        color: white;
+    }
+
+    body.dark-mode .header {
+        background-color: #000000;
+        color: white;
+    }
+
+    body.dark-mode .sidebar {
+        background-color: #000000;
+        color: white;
+    }
+    body.dark-mode .up-logo,
+    body.dark-mode .dark-logo
+    {
+        filter: invert(1) brightness(1.2);
+    } 
+        
+    body.dark-mode .menu-img,
+    body.dark-mode .search-icon,
+    body.dark-mode .voice,
+    body.dark-mode .sidebar-images
+    {
+        filter: invert(1) brightness(1.2);
+    }  
+
+    body.dark-mode .yt-logo {
+  
+        filter: invert(1) hue-rotate(180deg) saturate(6);  
+    }
