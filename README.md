@@ -1,4 +1,4 @@
-# YouTube Homepage Clone (Desktop Only)
+# YouTube Homepage Clone
 
 This is a simple YouTube homepage clone built using HTML, CSS, and JavaScript. It is designed only for desktop view and includes a dark/light mode toggle.
 
